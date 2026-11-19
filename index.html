@@ -1,1 +1,174 @@
-yes
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APCOER Student Portal</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f6fc;
+  color: #1e293b;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background: white;
+  padding: 25px 15px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+.header h1 {
+  color: #164a91;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.header h2 {
+  font-size: 22px;
+  margin: 20px 0 8px;
+}
+
+.header p {
+  color: #64748b;
+}
+
+.container {
+  max-width: 850px;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px #00000010;
+}
+
+.card h3 {
+  margin-bottom: 12px;
+  color: #164a91;
+}
+
+.card p {
+  color: #64748b;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #d5dce8;
+  border-radius: 9px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 9px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #174fc2;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .header h1 {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Anatrao Pawar College of Engineering and Research, Pune</h1>
+  <h2>🎓 Student Portal</h2>
+  <p>Access your academic records and clearance status</p>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h3>📘 Student Data</h3>
+    <p>View your academic information</p>
+    <input placeholder="Roll Number">
+    <input placeholder="Registered Mobile Number">
+    <button onclick="alert('Student Data portal coming soon!')">Login</button>
+  </div>
+
+  <div class="card">
+    <h3>📄 Clearance Sheet</h3>
+    <p>Check your clearance status</p>
+    <input placeholder="Roll Number">
+    <input placeholder="Registered Mobile Number">
+    <button onclick="alert('Clearance portal coming soon!')">Check Clearance</button>
+  </div>
+
+  <div class="card">
+    <h3>💬 Feedback Portal</h3>
+    <p>Submit your college feedback</p>
+    <input placeholder="Roll Number">
+    <input placeholder="Registered Mobile Number">
+    <button onclick="alert('Feedback portal coming soon!')">Open Feedback</button>
+  </div>
+
+  <div class="card">
+    <h3>📝 Forms</h3>
+    <p>Access student forms</p>
+    <input placeholder="Roll Number">
+    <input placeholder="Registered Mobile Number">
+    <button onclick="alert('Forms portal coming soon!')">Open Forms</button>
+  </div>
+
+  <div class="card">
+    <h3>📚 Assignment Portal</h3>
+    <p>View and submit assignments</p>
+    <input placeholder="Roll Number">
+    <input placeholder="Registered Mobile Number">
+    <button onclick="alert('Assignment portal coming soon!')">Open Assignments</button>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 APCOER Student Portal
+</div>
+
+</body>
+</html>
